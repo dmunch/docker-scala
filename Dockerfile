@@ -8,11 +8,11 @@
 #
 # Version     0.7
 
-FROM williamyeh/java7
+FROM williamyeh/java8
 MAINTAINER William Yeh <william.pjyeh@gmail.com>
 
 
-ENV SCALA_VERSION 2.11.6
+ENV SCALA_VERSION 2.12.0-RC2
 ENV SCALA_TARBALL http://www.scala-lang.org/files/archive/scala-$SCALA_VERSION.deb
 
 
